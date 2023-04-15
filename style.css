@@ -265,3 +265,27 @@ JOBS
     letter-spacing: 1.4px;
     line-height: 1.4;
 }
+
+/*
+PORTFOLIO
+*/
+
+.container-portfolio{
+    width: 100vw;
+    background: rgb(255,238,0);
+background: linear-gradient(0deg, rgba(255,238,0,1) 23%, rgba(0,0,0,1) 23%, rgba(0,0,0,1) 78%, rgba(255,238,0,1) 78%);
+}
+
+.portfolio{
+    padding: 30px;
+    width: 900px;
+    gap: 10px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.port-box img{
+    height: 200px;
+    width: 200px;
+}
