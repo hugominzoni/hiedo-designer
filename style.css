@@ -16,6 +16,11 @@ colors:
     font-family: 'Roboto', sans-serif;
 }
 
+a{
+    text-decoration: none;
+    color: #1c1c1c;
+}
+
 header{
     width: 100vw;
     height: 160px;
