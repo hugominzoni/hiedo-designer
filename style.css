@@ -73,7 +73,7 @@ main .cont-hero{
 
 .hero-text{
     padding-right: 40px;
-    width: 400px;
+    /* width: 400px; */
 }
 
 .hero-text h1{
@@ -85,6 +85,25 @@ main .cont-hero{
 
 .hero-text p{
     font-size: 15px;
+}
+
+.contato{
+    border: none;
+    padding: 12px 25px;
+    background-color: #ffee00;
+    text-transform: uppercase;
+    font-weight: 800;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 17px;
+    margin-top: 30px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 10px 12px 0px rgba(0, 0, 0, 0.282); 
+box-shadow: 0px 10px 12px 0px rgba(0, 0, 0, 0.274);
+}
+
+.contato:hover{
+    background-color: #e2d301;
 }
 
 .hero-image{
@@ -207,6 +226,12 @@ box-shadow: 0px 10px 12px 0px rgba(0,0,0,0.5);
     line-height: 1.4;
 }
 
+
+
+button:hover{
+    background-color: #569b33;
+}
+
 button{
     border: none;
     position: absolute;
@@ -226,7 +251,8 @@ button{
 box-shadow: 0px 10px 12px 0px rgba(0,0,0,0.5);
 }
 
-button:hover{
+button:hover,
+.contacto:hover{
     background-color: #569b33;
 }
 
@@ -302,6 +328,16 @@ background: linear-gradient(0deg, rgba(255,238,0,1) 23%, rgba(0,0,0,1) 23%, rgba
     width: 200px;
 }
 
+.port-box,
+.logo-box{
+    transition: transform 0.9s;
+}
+
+.port-box:hover,
+.logo-box:hover{
+    transform: scale(0.95);
+}
+
 /*
 LOGOTIPOS
 */
@@ -332,6 +368,47 @@ LOGOTIPOS
     background-color: #fff;
 }
 
+
+/*
+CTA FOOTER
+*/
+
+.container-contato{
+    width: 100vw;
+    margin: 0 auto;
+    background-color: #ffee00;
+    padding-bottom: 80px;
+}
+
+.entrecontato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.entrecontato p{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.contacto{
+    border: none;
+    padding: 12px 25px;
+    background-color: #6dbd45;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-left: 50px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 17px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 10px 12px 0px rgba(0, 0, 0, 0.282); 
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.135);
+}
+
+
 /*
 FOOTER
 */
@@ -354,6 +431,11 @@ footer{
     margin-left: 50px;
 }
 
+.social p{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
 ul{
     list-style: none;
     display: flex;
@@ -374,7 +456,8 @@ li{
     margin-bottom: 10px;
 }
 
-.local{
+.local,
+.social p{
     font-size: 12px;
     font-weight: 100;
      
