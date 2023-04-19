@@ -148,7 +148,7 @@ DESKTOP VERSION
     .intro{
         display: grid;
         grid-template-columns: 1024px;
-        margin: 0 auto;
+        justify-content: center;
         padding: 40px 0;
     }
 
