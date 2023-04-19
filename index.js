@@ -3,6 +3,8 @@ const imageBox = document.querySelector('.portf-box')
 const closeBox = document.querySelector('.close-port')
 const overlay = document.querySelector('.over')
 const imgBig = document.querySelectorAll('.imgBig')
+const next = document.querySelector('.next')
+const prev = document.querySelector('.prev')
 
 for(let i = 0; i < imgBig.length; i++){
     imgBig[i].addEventListener('click', function(){})
