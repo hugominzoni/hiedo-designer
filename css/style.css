@@ -65,7 +65,7 @@ DESKTOP VERSION
     }
 
     main .cont-hero{
-        background-image: url(img/FUNDO.jpg);
+        background-image: url(../img/FUNDO.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: top;
@@ -294,7 +294,7 @@ DESKTOP VERSION
     }
 
     .design-quote::before{
-        content: url(img/quote.png);
+        content: url(../img/quote.png);
         position: absolute;
         height: 30px;
         width: 30px;
@@ -350,6 +350,11 @@ DESKTOP VERSION
 
     .container-logotipos{
         height: 450px;
+
+    }
+
+    .container-logotipos h2{
+        display: none;
     }
 
     .logotipos{
