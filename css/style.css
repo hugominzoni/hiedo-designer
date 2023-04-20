@@ -518,7 +518,7 @@ DESKTOP VERSION
     }
 
     main .cont-hero{
-        background-image: url(img/FUNDO.jpg);
+        background-image: url(../img/FUNDO.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: top;
@@ -1003,7 +1003,7 @@ DESKTOP VERSION
     }
     
     main .cont-hero{
-        background-image: url(img/FUNDO.jpg);
+        background-image: url(../img/FUNDO.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: top;
