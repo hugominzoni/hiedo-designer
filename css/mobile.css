@@ -5,7 +5,10 @@
 
 @media screen and (max-width: 600px){
 
-    
+
+    .hidden{
+        display: none;
+    }
 
     header{
         width: 100vw;
@@ -303,7 +306,8 @@
         background: rgb(255,238,0);
     }
 
-    .portfolio{
+    .portfolio1,
+    .portfolio2{
         padding: 30px;
         gap: 30px;
         width: 100vw;
