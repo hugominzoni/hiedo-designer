@@ -11,12 +11,16 @@ btnNext.addEventListener('click', () => {
 
     gallery1.classList.add('hidden')
     gallery2.classList.remove('hidden')
+    btnNext.classList.add('hidden')
+    btnPrev.classList.remove('hidden')
 
 })
 btnPrev.addEventListener('click', () => {
 
     gallery2.classList.add('hidden')
     gallery1.classList.remove('hidden')
+    btnNext.classList.remove('hidden')
+    btnPrev.classList.add('hidden')
 
 })
 for (let i = 0; i < galBox.length; i++) {
