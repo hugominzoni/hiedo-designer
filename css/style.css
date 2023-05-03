@@ -322,7 +322,7 @@ DESKTOP VERSION
     */
 
     .container-portfolio,
-    .container-logotipos{
+    #container-logotipos{
         width: 100vw;
         background: rgb(255,238,0);
     background: linear-gradient(0deg, rgba(255,238,0,1) 23%, rgba(0,0,0,1) 23%, rgba(0,0,0,1) 78%, rgba(255,238,0,1) 78%);
@@ -358,12 +358,12 @@ DESKTOP VERSION
     LOGOTIPOS
     */
 
-    .container-logotipos{
-        height: 450px;
+    #container-logotipos{
+        height: auto;
 
     }
 
-    .container-logotipos h2{
+    #container-logotipos h2{
         display: none;
     }
 
@@ -861,7 +861,7 @@ DESKTOP VERSION
         display: none;
     }
 
-    .container-logotipos{
+    #container-logotipos{
         width: 100vw;
         height: auto;
         background: #000;
@@ -1327,7 +1327,7 @@ DESKTOP VERSION
     */
     
     .container-portfolio,
-    .container-logotipos{
+    #container-logotipos{
         width: 100vw;
         background: rgb(255,238,0);
     background: linear-gradient(0deg, rgba(255,238,0,1) 23%, rgba(0,0,0,1) 23%, rgba(0,0,0,1) 78%, rgba(255,238,0,1) 78%);
@@ -1363,12 +1363,12 @@ DESKTOP VERSION
     LOGOTIPOS
     */
     
-    .container-logotipos{
-        height: 450px;
+    #container-logotipos{
+        height: auto;
 
     }
 
-    .container-logotipos h2{
+    #container-logotipos h2{
         display: none;
     }
     
