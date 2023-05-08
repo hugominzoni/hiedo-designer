@@ -105,12 +105,17 @@ DESKTOP VERSION
         font-size: 15px;
     }
 
+    .fa-whatsapp{
+        font-size: 18px;
+
+    }
     .contato{
         border: none;
         padding: 12px 25px;
-        background-color: #ffee00;
+        background-color: #6dbd45;
         text-transform: uppercase;
         font-weight: 800;
+        color: #fff;
         cursor: pointer;
         display: inline-block;
         font-size: 17px;
@@ -121,7 +126,7 @@ DESKTOP VERSION
     }
 
     .contato:hover{
-        background-color: #e2d301;
+        background-color: #67b242;
     }
 
     .hero-image{
@@ -272,7 +277,7 @@ DESKTOP VERSION
 
     button:hover,
     .contacto:hover{
-        background-color: #569b33;
+        background-color: #67b242;
     }
 
 
@@ -423,6 +428,7 @@ DESKTOP VERSION
         padding: 12px 25px;
         background-color: #6dbd45;
         text-transform: uppercase;
+        color: #fff;
         font-weight: 800;
         margin-left: 50px;
         cursor: pointer;
@@ -595,7 +601,8 @@ DESKTOP VERSION
     .contato{
         border: none;
         padding: 12px 25px;
-        background-color: #ffee00;
+        background-color: #6dbd45;
+        color: #fff;
         text-transform: uppercase;
         font-weight: 800;
         cursor: pointer;
@@ -608,7 +615,7 @@ DESKTOP VERSION
     }
 
     .contato:hover{
-        background-color: #e2d301;
+        background-color: #67b242;
     }
 
     .hero-image{
@@ -769,7 +776,7 @@ DESKTOP VERSION
 
     button:hover,
     .contacto:hover{
-        background-color: #569b33;
+        background-color: #67b242;
     }
 
     /*
@@ -934,6 +941,7 @@ DESKTOP VERSION
         background-color: #6dbd45;
         text-transform: uppercase;
         font-weight: 800;
+        color: #fff;
         margin-top: 40px;
         margin-left: 0px !important;
         cursor: pointer;
@@ -1112,9 +1120,10 @@ DESKTOP VERSION
     .contato{
         border: none;
         padding: 12px 25px;
-        background-color: #ffee00;
+        background-color: #6dbd45;
         text-transform: uppercase;
         font-weight: 800;
+        color: #fff;
         cursor: pointer;
         display: inline-block;
         font-size: 17px;
@@ -1125,7 +1134,7 @@ DESKTOP VERSION
     }
     
     .contato:hover{
-        background-color: #e2d301;
+        background-color: #67b242;
     }
     
     .hero-image{
@@ -1278,7 +1287,7 @@ DESKTOP VERSION
     
     button:hover,
     .contacto:hover{
-        background-color: #569b33;
+        background-color: #67b242;
     }
     
     
@@ -1428,6 +1437,7 @@ DESKTOP VERSION
         border: none;
         padding: 12px 25px;
         background-color: #6dbd45;
+        color: #fff;
         text-transform: uppercase;
         font-weight: 800;
         margin-left: 50px;
