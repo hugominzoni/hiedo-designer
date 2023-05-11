@@ -449,7 +449,7 @@ DESKTOP VERSION
         display: flex;
         padding-top: 30px;
         justify-content: center;
-        padding-bottom: 150px;
+        padding-bottom: 90px;
     }
 
     .container-footer{
@@ -519,6 +519,25 @@ DESKTOP VERSION
         position: relative;
 
     }
+
+    .credit{
+        display: flex;
+        width: 100vw;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .credit p{
+        font-size: 12px;
+        opacity: .2;
+    }
+
+    .credit img{
+        height: 40px;
+        margin-left: 10px
+    };
 
 }
 
@@ -1032,6 +1051,25 @@ DESKTOP VERSION
 
     }
 
+    .credit{
+        display: flex;
+        width: 100vw;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .credit p{
+        font-size: 12px;
+        opacity: .2;
+    }
+
+    .credit img{
+        height: 40px;
+        margin-left: 10px
+    };
+
 }
 
 
@@ -1529,6 +1567,25 @@ DESKTOP VERSION
         position: relative;
 
     }
+
+    .credit{
+        display: flex;
+        width: 100vw;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .credit p{
+        font-size: 12px;
+        opacity: .2;
+    }
+
+    .credit img{
+        height: 40px;
+        margin-left: 10px
+    };
     
 
 }
